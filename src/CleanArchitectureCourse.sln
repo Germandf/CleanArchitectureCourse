@@ -3,9 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94D685C3-B75F-48DA-8EEE-0820BD8079E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F7AF7E0B-95FB-412E-AD8C-0BA38B8041E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6116D172-0B69-4932-B0CB-BAB3F3332141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BE13B4CE-709C-4B7A-B8B3-002C1D7B26D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D9A45A13-9F51-4534-9DE1-C4F70801B1F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{DD860755-26FE-4EBE-9D7A-7C9932FB9FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureCourse.Domain", "CleanArchitectureCourse.Domain\CleanArchitectureCourse.Domain.csproj", "{95415DB2-FEFD-465A-8A1A-A672023CB94C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95415DB2-FEFD-465A-8A1A-A672023CB94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95415DB2-FEFD-465A-8A1A-A672023CB94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95415DB2-FEFD-465A-8A1A-A672023CB94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95415DB2-FEFD-465A-8A1A-A672023CB94C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6116D172-0B69-4932-B0CB-BAB3F3332141} = {94D685C3-B75F-48DA-8EEE-0820BD8079E7}
+		{BE13B4CE-709C-4B7A-B8B3-002C1D7B26D8} = {94D685C3-B75F-48DA-8EEE-0820BD8079E7}
+		{D9A45A13-9F51-4534-9DE1-C4F70801B1F7} = {94D685C3-B75F-48DA-8EEE-0820BD8079E7}
+		{DD860755-26FE-4EBE-9D7A-7C9932FB9FFA} = {94D685C3-B75F-48DA-8EEE-0820BD8079E7}
+		{95415DB2-FEFD-465A-8A1A-A672023CB94C} = {BE13B4CE-709C-4B7A-B8B3-002C1D7B26D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {432CBB67-AF61-4C26-8073-6160F1BC1544}
